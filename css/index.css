@@ -72,6 +72,7 @@ ul li a:hover {
 
 .video-div {
     display: flex;
+      background:black;
     flex-direction: column;
     overflow: hidden;
     position: relative;
