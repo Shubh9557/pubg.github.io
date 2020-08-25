@@ -89,7 +89,7 @@ ul li a:hover {
 
 .videoctrl {
     width: 100%;
-    height:auto;
+    height:100%;
 }
 
 .containertext {
@@ -219,13 +219,14 @@ div .btn2 {
 
 @media (max-width: 807px) {
     .video-div{
-        height: 10rem;
+        height: 20rem;
     }
     
     .containertext {display: none;
     }
     .img-grid {
         justify-content: center;
+        margin-top:5rem;
     }
     .img-grid .box1 {
         display: flex;
