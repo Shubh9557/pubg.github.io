@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:black;
+   
 }
 
 .header {
@@ -201,7 +201,7 @@ div .btn2 {
 
 @media (max-width: 1215px) {
     .video-div{
-        height:37rem;
+        height: 30rem;
     }
     .img-grid {
         flex-wrap: wrap;
@@ -209,6 +209,11 @@ div .btn2 {
         height: auto;
         overflow: hidden;
     }
+    .slidebar {
+        
+        height: 20rem;
+    }
+    
     .characterdiv {
         flex-wrap: wrap;
         width: var(--img-grid-width);
@@ -219,15 +224,20 @@ div .btn2 {
 
 @media (max-width: 807px) {
     .video-div{
-        height: 20rem;
+        height: 25rem;
+    }
+    .videoctrl{
+        height: 100vh;
     }
     
     .containertext {display: none;
     }
+    .slidebar {
+        
+        height: 20rem;
+    }
     .img-grid {
         justify-content: center;
-        align-item:center;
-        margin-top:1rem;
     }
     .img-grid .box1 {
         display: flex;
