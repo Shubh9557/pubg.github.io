@@ -218,7 +218,7 @@ div .btn2 {
 
 @media (max-width: 807px) {
     .video-div{
-        height: 30rem;
+        height: 10rem;
     }
     
     .containertext {display: none;
