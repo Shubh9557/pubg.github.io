@@ -201,7 +201,7 @@ div .btn2 {
 
 @media (max-width: 1215px) {
     .video-div{
-        height: 35rem;
+        height:37rem;
     }
     .img-grid {
         flex-wrap: wrap;
@@ -226,7 +226,8 @@ div .btn2 {
     }
     .img-grid {
         justify-content: center;
-        margin-top:5rem;
+        align-item:center;
+        margin-top:1rem;
     }
     .img-grid .box1 {
         display: flex;
